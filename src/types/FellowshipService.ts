@@ -3,7 +3,7 @@ export type FellowshipService = {
     date: string,
     index_number: string,
     name: string,
-    attendance: string,
-    offering: string,
+    attendance: number,
+    offering: number,
     constituency: string
 }
